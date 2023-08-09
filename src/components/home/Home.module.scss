@@ -1,0 +1,43 @@
+@import '../../styles/variable.scss';
+
+.root {
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1410px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 29px;
+
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 598px;
+  height: 575px;
+
+  h1 {
+    color: #25272f;
+
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 117.7%;
+  }
+
+  p {
+    color: #67687a;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .loveText {
+    position: relative;
+    left: 162px;
+  }
+}
