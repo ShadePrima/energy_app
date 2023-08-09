@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className={styles.root}>
       <div className={styles.wrapper}>
-        <img src={image} alt='MainFoto' />
+        <img className={styles.image} src={image} alt='MainFoto' />
         <div className={styles.content}>
           <h1>One Complete Philosophy for Your Total Wellbeing</h1>
           <p>
