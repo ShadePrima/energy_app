@@ -23,6 +23,10 @@
   }
 
   @include textNavigation;
+
+  @media (max-width: 425px) {
+    display: none;
+  }
 }
 
 .iconeMenu {
@@ -36,5 +40,22 @@
   .cart {
     background-color: $color-white;
     border-radius: 20px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  @media (max-width: 425px) {
+    .search,
+    .persone {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+    }
+
+    margin-right: 3px;
   }
 }

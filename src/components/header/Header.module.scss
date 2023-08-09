@@ -4,4 +4,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media (max-width: 425px) {
+    background: url(../../assets/images/bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
