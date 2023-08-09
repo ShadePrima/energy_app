@@ -9,12 +9,14 @@ const Home = () => {
       <div className={styles.wrapper}>
         <img className={styles.image} src={image} alt='MainFoto' />
         <div className={styles.content}>
-          <h1>One Complete Philosophy for Your Total Wellbeing</h1>
-          <p>
-            Upgrade the condition of your body. Harness the infinite power of
-            your mind. Experience the boundless joy of your spirit. The secret
-            lies in energy.
-          </p>
+          <div className={styles.textContent}>
+            <h1>One Complete Philosophy for Your Total Wellbeing</h1>
+            <p>
+              Upgrade the condition of your body. Harness the infinite power of
+              your mind. Experience the boundless joy of your spirit. The secret
+              lies in energy.
+            </p>
+          </div>
           <img className={styles.loveText} src={loveText} alt='Love Text' />
         </div>
       </div>
