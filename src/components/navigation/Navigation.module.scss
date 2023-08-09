@@ -1,0 +1,40 @@
+@import '../../styles/variable.scss';
+
+.root {
+  padding-top: 31px !important;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.textMenu {
+  margin-top: 16px;
+  max-width: 403px;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  @include textNavigation;
+}
+
+.iconeMenu {
+  max-width: 146px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  .cart {
+    background-color: $color-white;
+    border-radius: 20px;
+  }
+}
